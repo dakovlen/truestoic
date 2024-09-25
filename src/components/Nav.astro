@@ -1,0 +1,19 @@
+---
+import navData from "../data/navData";
+---
+
+<nav class="navbar" aria-label="Primary">
+  <a href="/" aria-label="Go home">
+    <img src="/img/logo.svg" alt="logo" width="150" height="40" />
+  </a>
+
+  <ul class="menu">
+    {
+      navData.map((item) => (
+        <li>
+          <a href={item.path}>{item.name}</a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

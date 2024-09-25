@@ -1,0 +1,24 @@
+---
+import MainHead from './MainHead.astro';
+import Header from '../components/Header.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+ const { title, description } = Astro.props as Props;
+
+ //import style
+ import "../styles/global.css";
+---
+
+<html lang="en">
+  <MainHead {title} {description} />
+  
+  <Header />
+
+  <body>
+    <slot/>
+  </body>
+</html>
