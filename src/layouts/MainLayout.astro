@@ -16,9 +16,11 @@ interface Props {
 <html lang="en">
   <MainHead {title} {description} />
   
-  <Header />
-
   <body>
-    <slot/>
+    <Header />
+    <main>
+      <slot/>
+    </main>
+    
   </body>
 </html>
