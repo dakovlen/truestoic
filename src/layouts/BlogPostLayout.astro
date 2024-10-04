@@ -5,6 +5,8 @@ import PostHeader from "../components/PostHeader.astro";
 const { frontmatter } = Astro.props;
 
 const { title, description, pubDate, author, image, category } = frontmatter;
+
+import '../styles/pages/blog.scss';
 ---
 
 <MainLayout {title} {description}>

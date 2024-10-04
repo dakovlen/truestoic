@@ -8,6 +8,7 @@ image:
     url: '/img/post-1.jpg'
     alt: 'The Astro logo on a dark background with a pink glow.'
 category: ["astro", "blogging", "learning in public"]
+slug: 'post'
 ---
 # My First Blog Post
 
