@@ -4,6 +4,35 @@
   width: 100%;
   padding: 15px 0;
   background-color: $base-color;
+
+  & .dark {
+    background-color: $black-color;
+  }
+}
+
+.dark {
+  .header {
+    background-color: $black-color;
+
+    .menu li a {
+      color: #fff;
+    }
+  }
+
+  .logo-img {
+    path {
+      fill: $base-color;
+    }
+  }
+  
+}
+
+.logo-img {
+  width: 150px;
+  height: 40px;
+  path {
+    fill: $black-color;
+  }
 }
 
 .container {

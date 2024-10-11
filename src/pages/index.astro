@@ -1,9 +1,12 @@
 ---
+import Greeting from "../components/Greeting";
 import MainLayout from "../layouts/MainLayout.astro";
 import "../styles/pages/home.scss";
 
 ---
 
 <MainLayout title="Home" description="Desc Home">
-
+  <div class="container">
+    <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+  </div>
 </MainLayout>

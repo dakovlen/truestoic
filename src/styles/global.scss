@@ -69,8 +69,17 @@ html {
 }
 
 
-body {
+html {
   background: $base-color;
+}
+
+html.dark {
+  background-color: $black-color;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
 
 @import "./components/header.scss";
