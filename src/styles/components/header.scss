@@ -54,15 +54,17 @@
   align-items: center;
 
   li {
-    margin-left: 10px;
+    margin-left: 20px;
 
     &:first-child {
       margin-left: 0;
     }
 
     a {
+      font-size: 18px;
       text-decoration: none;
       color: $black-color;
+      font-weight: 500;
 
       &:hover {
         color: $action-color;
