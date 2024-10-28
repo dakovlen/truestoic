@@ -6,15 +6,17 @@ import "../styles/pages/single-blog.scss";
 ---
 
 <MainLayout title={frontmatter.title}>
-  <div class="container">
+  <div class="container single-post-page">
+    <img class="single-post-main-img" src={frontmatter.image.url} width="800" height="500" alt={frontmatter.image.alt} />
     <p><em>{frontmatter.description}</em></p>
-    <p>{frontmatter.pubDate.slice(0, 10)}</p>
 
-    <p>Author: {frontmatter.author}</p>
+    <div class="author">
+      <p class="author__name">{frontmatter.author}</p>
+      <p class="pub__date-post">{frontmatter.pubDate.slice(0, 10)}</p>
+    </div>
+    
 
-    <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
-
-    <div class="tags">
+    <!-- <div class="tags">
       {
         frontmatter.tags.map((tag) => (
           <p class="tag">
@@ -22,9 +24,10 @@ import "../styles/pages/single-blog.scss";
           </p>
         ))
       }
+    </div> -->
+    <div class="single-post-content">
+      <slot />
     </div>
-
-    <slot />
   </div>
 </MainLayout>
 <style>

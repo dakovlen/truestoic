@@ -1,1 +1,22 @@
 @import '../global';
+
+.blog-list-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.blog-list {
+  display: block;
+
+  &__img {
+    border-radius: 20px;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: $text-color;
+  }
+}

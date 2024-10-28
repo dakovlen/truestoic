@@ -3,17 +3,21 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import BlogPost from "../../components/BlogPost.astro";
 const allPosts = await Astro.glob("../../pages/blog/*.md");
 
-import "../../styles/pages/single-blog.scss";
-
-console.log("All Posts", allPosts);
+import "../../styles/pages/blog.scss";
 ---
 
 <MainLayout title="Blog" description="Desc">
   <div class="container">
-    {
-      allPosts.map((post) => (
-        <BlogPost url={post.url} title={post.frontmatter.title} />
-      ))
-    }
+    <div class="blog-list-box">
+      {
+        allPosts.map((post) => (
+          <BlogPost
+            url={post.url}
+            img={post.frontmatter.image}
+            title={post.frontmatter.title}
+          />
+        ))
+      }
+    </div>
   </div>
 </MainLayout>

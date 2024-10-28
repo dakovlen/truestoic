@@ -1,9 +1,8 @@
 ---
-const { title, url } = Astro.props;
+const { title, url, img } = Astro.props;
 ---
 
-<li>
-  <a href={url}>
-    {title}
-  </a>
-</li>
+<a class="blog-list" href={url}>
+  <img class="blog-list__img" src={img.url} alt={title}>
+  <span class="blog-list__text">{title}</span>
+</a>
