@@ -29,7 +29,11 @@ const filteredPosts = posts.filter((post) =>
 <MainLayout title={tag}>
   <div class="container">
     <ul>
-      {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title}/>)}
+      {posts.map((post) => <BlogPost
+        url={post.url}
+        img={post.frontmatter.image}
+        title={post.frontmatter.title}
+      />)}
     </ul>
   </div>
 </MainLayout>
