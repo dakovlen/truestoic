@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/MarkdownPostLayout.astro"
 title: 'Timeless Lessons from Marcus Aurelius: A Guide to Living with Purpose'
-pubDate: 2022-07-01
+pubDate: 2024-10-29
 description: 'Timeless Lessons from Marcus Aurelius: A Guide to Living with Purpose'
 author: 'Solan Voss'
 image:
