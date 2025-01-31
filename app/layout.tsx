@@ -43,16 +43,16 @@ export default function RootLayout({
                       Blog
                     </Link>
                   </li>
-                  <li>
-                    <Link href="#" className="hover:text-primary">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="hover:text-primary">
-                      Contact
-                    </Link>
-                  </li>
+                    {/* <li>
+                      <Link href="#" className="hover:text-primary">
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="#" className="hover:text-primary">
+                        Contact
+                      </Link>
+                    </li> */}
                 </ul>
                 <ModeToggle />
               </div>

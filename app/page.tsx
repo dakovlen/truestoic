@@ -8,7 +8,7 @@ export default function Home() {
       {/* Hero Section with Quote of the Day */}
       <section className="relative flex items-center justify-center py-20 overflow-hidden">
         <div className="container z-10 px-4 mx-auto text-center">
-          <Image src="/scroll-logo.svg" alt="TrueStoic Logo" width={100} height={100} className="mx-auto mb-8" />
+          {/* <Image src="/scroll-logo.svg" alt="TrueStoic Logo" width={100} height={100} className="mx-auto mb-8" /> */}
           <h1 className="mb-6 text-4xl font-bold md:text-6xl text-gradient">Quote of the Day</h1>
           <blockquote className="mb-8 text-2xl italic md:text-3xl">
             "You have power over your mind - not outside events. Realize this, and you will find strength."
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* Featured Video */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container px-4 mx-auto">
           <h2 className="mb-8 text-3xl font-bold text-center text-gradient">Featured Video</h2>
           <div className="aspect-w-16 aspect-h-9">
@@ -107,7 +107,7 @@ export default function Home() {
             ></iframe>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Subscribe to Our Newsletter */}
       <section className="py-16 bg-muted">
