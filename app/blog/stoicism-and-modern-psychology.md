@@ -1,8 +1,8 @@
 ---
 title: "Stoicism and Modern Psychology: Ancient Wisdom Meets Science"
 author: "Epictetus"
-date: "2025-04-15"
-# image: "/images/stoicism-psychology.jpg"
+date: "2025-01-15"
+image: "/images/stoicism-psychology.png"
 excerpt: "Explore the fascinating connections between Stoic philosophy and modern psychological theories, and how they can be applied for better mental health."
 ---
 

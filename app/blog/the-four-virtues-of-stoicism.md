@@ -1,8 +1,8 @@
 ---
 title: "The Four Virtues of Stoicism: A Guide to Living Well"
 author: "Marcus Aurelius"
-date: "2025-03-15"
-# image: "/images/four-virtues.jpg"
+date: "2025-02-01"
+image: "/images/four-virtues.png"
 excerpt: "Explore the four cardinal virtues of Stoicism and learn how to apply them in your daily life for greater wisdom and resilience."
 ---
 

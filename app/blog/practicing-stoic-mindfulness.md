@@ -1,8 +1,8 @@
 ---
 title: "Practicing Stoic Mindfulness: Techniques for Inner Peace"
-author: "Seneca"
-date: "2025-04-01"
-# image: "/images/stoic-mindfulness.jpg"
+author: "SOLAN VOSS"
+date: "2025-01-17"
+image: "/images/stoic-mindfulness.png"
 excerpt: "Discover powerful Stoic mindfulness techniques to cultivate inner peace, resilience, and clarity in your daily life."
 ---
 
