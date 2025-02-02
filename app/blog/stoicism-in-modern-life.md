@@ -2,7 +2,7 @@
 title: "Stoicism in Modern Life"
 author: "Marcus Aurelius"
 date: "2025-01-31"
-audioSrc: "/audio/stoicism-in-modern-life.mp3"
+# audioSrc: "/audio/stoicism-in-modern-life.mp3"
 image: "/images/stoicism-in-modern-life.png"
 excerpt: "Discover how ancient Stoic philosophy can help you navigate the challenges of modern life."
 ---
